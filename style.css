@@ -28,14 +28,6 @@ body {
     border: auto;
 }
 
-.sec1.head {
-    color: #F9FAF8;
-    font-size: 48px;
-    margin-left: 50px;
-    display: flex;
-    flex: 1;
-}
-
 .sec1 {
     display: flex;
     flex: 1; 
@@ -46,16 +38,32 @@ body {
     flex-direction: column;
 }
 
+.sec1.head {
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-left: 50px;
+    display: flex;
+    flex: 1;
+    margin-right: 450px;
+}
+
 .sec1.text {
     color: #E5E7EB;
     font-size: 16px;
     font-weight: 100;
     display: block;
+    margin-right: 450px;
 }
 
 .sec1.button {
     background-color: blue;
     color: #E5E7EB;
     display: flex;
-    flex: auto;
+    margin-left: 50;
+    align-self: flex-start;
+}
+
+.sec1.image {
+    
+    padding: 100;
 }

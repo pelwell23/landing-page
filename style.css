@@ -6,6 +6,7 @@ body {
     display: flex;
     flex: 1;
     justify-content: space-around;
+    margin-left: 50px;
 }
 
 .header.logo {
@@ -13,8 +14,7 @@ body {
     font-weight: 800;
     color: #F9FAF8;
     display: flex;
-    margin-right: 250px;
-
+    justify-content: flex-start;
 }
 
 .link {
@@ -24,6 +24,36 @@ body {
     align-self: flex-end;
     font-size: 18px;
     font-weight: 100;
-    justify-content: space-around;
+    margin-right: 75px;
+    border: auto;
 }
 
+.sec1.head {
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-left: 50px;
+    display: flex;
+    flex: 1;
+}
+
+.sec1 {
+    display: flex;
+    flex: 1; 
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: auto;
+    border: 50px;
+}
+
+.sec1.text {
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 100;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+}
+
+.sec1.button {
+    
+}

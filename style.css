@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.first-section {
+.first-section,.content {
     background-color: #1F2937;
 }
 
@@ -24,7 +24,7 @@ body {
     margin: 10px; 
 }
 
-.header {
+.navbar {
     display: flex;
     flex-direction: row;
 }
@@ -34,9 +34,32 @@ ul {
     flex-direction: row;
 }
 
-.header-left,.header-right {
+.navbar-left,.navbar-right {
     display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
 }
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-left,.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+

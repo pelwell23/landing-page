@@ -146,3 +146,28 @@ img {
     justify-content: flex-end;
     margin-right: 250px;
 }
+
+.bottom {
+    background-color: #3882F6;
+    padding: 3em;
+    border-radius: 10px;
+    margin: 50px;
+    display: flex;
+}
+
+.bottom-left {
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.final-sign-up {
+    color: #F9FAF8;
+    font-size: 20px;
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-style: solid;
+}

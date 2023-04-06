@@ -21,7 +21,7 @@ body {
 .header-link {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 10px; 
+    margin: 10px;
 }
 
 .navbar {
@@ -88,3 +88,38 @@ img {
     border-style: solid;
     border-color: #3882F6;
 }
+
+.middle-top {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.middle-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-text {
+    color: gray;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-second-left {
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.p-second-right {
+    margin-left: 30px;
+}
+

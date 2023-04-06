@@ -153,12 +153,11 @@ img {
     border-radius: 10px;
     margin: 50px;
     display: flex;
+    justify-content: space-around;
 }
 
 .bottom-left {
     color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
 }
 
 .final-sign-up {
@@ -170,4 +169,14 @@ img {
     background-color: #3882F6;
     border-color: #F9FAF8;
     border-style: solid;
+}
+
+.footer {
+    color: #E5E7EB;
+    font-size: 16px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }

@@ -112,6 +112,7 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .p-second-left {
@@ -123,3 +124,25 @@ img {
     margin-left: 30px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    padding: 65px;
+}
+
+.quote-main {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-source {
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 250px;
+}
